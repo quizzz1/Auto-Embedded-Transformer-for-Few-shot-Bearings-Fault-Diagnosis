@@ -1,0 +1,1 @@
+# Auto-Embedded-Transformer-for-Few-shot-Bearings-Fault-Diagnosis
