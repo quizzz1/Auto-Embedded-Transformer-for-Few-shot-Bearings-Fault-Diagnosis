@@ -1,4 +1,4 @@
-# 10-7 - 多个小核卷积代替一个大核卷积
+# 多个小核卷积代替一个大核卷积
 
 import tensorflow as tf
 import numpy as np
@@ -39,7 +39,7 @@ def scaled_dot_product_attention(q, k, v):
     return out, attention_weights
 
 
-# 22-9-6
+
 class MultiHeadAttention(tf.keras.layers.Layer):
     """
     q: [batch, sequence_len, q_embeding_len]
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     print("sample_ffn_out.shape ", sample_ffn_out.shape)
 
 
-# 22-9-6
+
 class EncoderLayer(tf.keras.layers.Layer):
     def __init__(self, d_model, num_heads, dff, rate=0.1):
         super(EncoderLayer, self).__init__()
