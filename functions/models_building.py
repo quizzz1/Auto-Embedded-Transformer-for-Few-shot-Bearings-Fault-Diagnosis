@@ -1,4 +1,3 @@
-# 22-9-8
 import tensorflow as tf
 
 #%% MLP
